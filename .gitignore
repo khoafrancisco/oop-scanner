@@ -1,0 +1,35 @@
+﻿# .gitignore for C#/.NET projects
+# Build directories
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.useros
+*.userprefs
+.vscode/
+
+# NuGet and packages
+*.nupkg
+packages/
+
+# Build outputs and symbols
+*.pdb
+*.dll
+*.exe
+
+# Logs, temp, test results
+*.log
+*.tmp
+TestResults/
+
+# Private or sensitive files
+Assessment.dll
+flag-secret.txt
+flag.txt
+
+# OS files
+Thumbs.db
+.DS_Store
